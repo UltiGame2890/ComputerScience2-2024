@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <title> JavaScript Quiz (Dresses of India) </title>
+   <link href="style.css" rel="stylesheet">
+
+</head>
+<script>
+   //****************************************************
+   //  This block helps to catch the syntax errors.
+   //  These errors are reported back to the web page
+   //****************************************************
+   window.onerror = function (e) {
+      document.write('There\'s an error: ', e, '</br>')
+   };
+</script>
+
+<style>
+   #table_1 {
+      border-spacing: 200px 0px;
+   }
+</style>
+<table id="table_1">
+   <tr>
+      <td>
+         <a href="index.html" title="SILC Shopping Cart">
+            <image id="silc" src="Images/index_images/silc_home.jpg"></image>
+         </a>
+      </td>
+   </tr>
+</table>
+
+<body>
+   <div class="dressPage">
+
+      <div class="shopItem">
+         <p><img class="imgName" src="Images/dresses/lehenga_choli.jpg" alt="img not found" /></p>
+         <div>
+            <span class="dressName">Lehenga Choli</span>
+            <span class="priceVal">$ 19.19</span>
+         </div>
+         <br>
+         <button class='cartItemButton' type="button">Add to Cart</button>
+      </div>
+
+      <div class="shopItem">
+         <p><img class="imgName" src="Images/dresses/assam.jpg" alt="img not found" /></p>
+         <div>
+            <span class="dressName">Assam</span>
+            <span class="priceVal">$ 19.19</span>
+         </div>
+         <br>
+         <button class='cartItemButton' type="button">Add to Cart</button>
+      </div>
+
+      <div class="shopItem">
+         <p><img class="imgName" src="Images/dresses/saree.jpg" alt="img not found" /></p>
+         <div>
+            <span class="dressName">Saree</span>
+            <span class="priceVal">$ 19.19</span>
+         </div>
+         <br>
+         <button class='cartItemButton' type="button">Add to Cart</button>
+      </div>
+
+      <div class="shopItem">
+         <p><img class='imgName' src="Images/dresses/churidar_suit.jpg" alt='img not found' /></p>
+         <div>
+            <span class="dressName">Churidar</span>
+            <span class="priceVal">$ 19.19</span>
+         </div>
+         <br>
+         <button class='cartItemButton' type='button'>Add to Cart</button>
+      </div>
+      <div id="cartBox">
+         <h2>Cart</h2>
+         <div id='cartItemHeadingText'>
+            <span>ITEM</span>
+            <span class='cartPrice'>PRICE</span>
+            <!-- <span class='removebutton'>RemoveButton</span>-->
+         </div>
+         <div class='cartSection'>
+
+            <div class='cartRows'>
+            </div>
+            <div class="carttotal">
+               <strong class="carttotaltitle">Total</strong>
+               <span class="carttotalprice">$00.00</span>
+            </div>
+         </div>
+      </div>
+   </div>
+   </table>
+
+
+
+
+</body>
+<script src="script.js"></script>
+
+</html>
